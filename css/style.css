@@ -52,11 +52,12 @@ body{
     background-position:center;
 }
 .descr_games{
-    padding: 270px 0 30px 30px;
+    padding: 350px 0 30px 30px;
 }
 .descr_games img{
-    width: 200px;
+    width: 150px;
 }
+
 .descr_games h1,
 .descr_games p{
     color: white;
@@ -66,4 +67,12 @@ body{
     background-color: #cd3d0f;
     color: white;
     margin-top: 15px;
+}
+.game_card{
+    margin: 30px 15px 15px 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.game_card img{
+    width: 100%;
 }
