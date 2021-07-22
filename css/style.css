@@ -5,7 +5,7 @@ body{
 .btn_general{
     padding: 8px 10px;
     border-radius: 20px;
-    background-color: green;
+    border: none;
 }
 
 /* header_up */
@@ -40,4 +40,30 @@ body{
     font-size: 30px;
     color: #363636;
     margin-left: 20px;
+}
+
+/* section hero */
+.img_back{
+    display: flex;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.descr_games{
+    padding: 270px 0 30px 30px;
+}
+.descr_games img{
+    width: 200px;
+}
+.descr_games h1,
+.descr_games p{
+    color: white;
+    margin-top: 20px;
+}
+.bnt_hero{
+    background-color: #cd3d0f;
+    color: white;
+    margin-top: 15px;
 }
