@@ -16,6 +16,7 @@ main{
     padding: 8px 10px;
     border-radius: 20px;
     border: none;
+    text-decoration: none;
 }
 
 /* header_up */
@@ -84,3 +85,57 @@ main{
 .game_card img{
     width: 100%;
 }
+
+/* console */
+.color_blue{
+    color: #0474ce;
+    margin-bottom: 3px;
+}
+#console{
+    margin-top: 70px;
+}
+h2{
+    margin-bottom: 30px;
+}
+.btn_console{
+    background-color: #2d64e6;
+    color: white;
+    margin-top: 15px;
+}
+.img_console img{
+    width: 100%;
+}
+.text_center{
+    display: flex;
+    align-items: center;
+}
+.text_console{
+    padding-left: 70px;
+}
+.img_small_console{
+    padding: 30px;
+    text-align: center;
+}
+.img_small_console img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+   .text_console{
+       text-align: center;
+       margin-top: 80px;
+       width: 100%;
+       padding: 0;
+   } 
+}
+
+
+
