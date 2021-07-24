@@ -244,6 +244,14 @@ h2{
     color: #161c3b;
 }
 
+/* social */
+.img_social{
+    margin: 40px 0;
+}
+.img_social img{
+    width: 100%;
+}
+
 
 
 
