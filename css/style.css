@@ -313,6 +313,26 @@ footer ul li{
 
 
 
+body::-webkit-scrollbar {
+    width: 0;               
+}
+  
+/* body::-webkit-scrollbar-track {
+    background: transparent;
+           
+}
+  
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(163, 163, 163);    
+    border-radius: 20px;         
+} */
+
+
+
+
+
+
+
 
 
 
