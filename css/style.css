@@ -8,6 +8,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 999;
+    background-color: white;
 }
 main{
     margin-top: 116px;
@@ -252,6 +253,32 @@ h2{
     width: 100%;
 }
 
+/* footer */
+footer{
+    background-color: #00439c;
+    color: white;
+    padding: 70px 30px;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.img_logo_play img{
+    width: 100px;
+    display: block;
+    margin-bottom: 40px;
+}
+.logo_sony_footer img{
+    width: 150px;
+    display: block;
+    margin-bottom: 15px;
+}
+#info_copyright{
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -278,6 +305,9 @@ h2{
    /* now */
    .img_ps_now{
        display: none;
+   }
+   .list_footer{
+       margin: 35px 0;
    }
 }
 
