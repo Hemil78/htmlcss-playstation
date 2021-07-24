@@ -53,6 +53,7 @@ main{
     margin-left: 20px;
 }
 
+/* hero */
 .img_hero_back{
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
@@ -118,6 +119,31 @@ h2{
 }
 .img_small_console img{
     width: 100%;
+}
+
+/* new game */
+.img_new_entry{
+    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.descr_new_entry{
+    padding: 300px 0 30px 30px;
+}
+.descr_new_entry h2,
+.descr_new_entry p{
+    color: white;
+    margin-top: 20px;
+}
+.bnt_new_entry{
+    background-color: #cd3d0f;
+    color: white;
+    margin-top: 15px;
+}
+.descr_new_entry img{
+    width: 200px;
 }
 
 
