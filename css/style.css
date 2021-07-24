@@ -146,6 +146,29 @@ h2{
     width: 200px;
 }
 
+/* list new entry */
+#list_new_entry{
+    background-color: #1f1f1f;
+    padding: 30px;
+}
+.text_list_new_entry{
+    color: white;
+}
+.text_list_new_entry h4{
+    margin-top: 20px;
+}
+.card_list_new_entry{
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+}
+.card_list_new_entry img{
+    width: 100%;
+}
+.card_list_new_entry p{
+    margin-top: 10px;
+}
+
 
 
 
