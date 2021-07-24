@@ -169,6 +169,23 @@ h2{
     margin-top: 10px;
 }
 
+/* esplora */
+.fa-registered{
+    font-size: 10px;
+    vertical-align: text-top;
+}
+#esplora{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+.card_ps4 img{
+    width: 100%;
+}
+.card_ps4{
+    padding-left: 20px;
+}
+
 
 
 
