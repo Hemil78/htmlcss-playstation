@@ -186,6 +186,32 @@ h2{
     padding-left: 20px;
 }
 
+/* ps_plus */
+#ps_plus{
+    background-color: #bebcbb;
+    padding: 0 30px;
+    margin: 80px 0;
+}
+.text_ps_plus{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.box_text_plus img{
+    width: 250px;
+}
+.box_text_plus p{
+    margin: 60px 0 40px 0;
+}
+.img_ps_plus img{
+    width: 100%;
+}
+.btn_plus{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
 
 
 
@@ -195,12 +221,19 @@ h2{
 
 
 @media screen and (max-width: 768px){
+
+    /* console */
    .text_console{
        text-align: center;
        margin-top: 80px;
        width: 100%;
        padding: 0;
-   } 
+   }
+   
+   /* plus */
+   .img_ps_plus{
+       display: none;
+   }
 }
 
 
