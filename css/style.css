@@ -87,6 +87,69 @@ main{
 .game_card img{
     width: 100%;
 }
+@-webkit-keyframes game_card {
+    0% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+    50% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  @keyframes game_card {
+    0% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+    50% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  @-webkit-keyframes game_card-float {
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  @keyframes game_card-float {
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  .game_card {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .game_card:hover, .game_card:focus, .game_card:active {
+    -webkit-animation-name: game_card-float, game_card;
+    animation-name: game_card-float, game_card;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
 
 /* console */
 .color_blue{
@@ -258,6 +321,7 @@ footer{
     background-color: #00439c;
     color: white;
     padding: 70px 30px;
+    margin-top: 40px;
 }
 footer ul li{
     text-decoration: none;
@@ -308,6 +372,11 @@ footer ul li{
    }
    .list_footer{
        margin: 35px 0;
+   }
+
+   /* esplora */
+   .card_ps4{
+       margin-bottom: 50px;
    }
 }
 
