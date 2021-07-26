@@ -224,6 +224,10 @@ h2{
 .img_small_console:hover{
     opacity: 1;
 }
+.first_img_small{
+    opacity: 1;
+    border-bottom: 3px solid #2d64e6;
+}
 .img_small_console img{
     width: 100%;
 }
