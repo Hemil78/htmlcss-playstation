@@ -185,6 +185,7 @@ h1, h2, h3{
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+    box-shadow: 0 0 15px 10px rgba(205, 61, 15, 0.6);
   }
 
 /* console */
