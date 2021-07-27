@@ -218,6 +218,7 @@ h2{
     opacity: 0.5;
     padding: 30px;
     text-align: center;
+    transition: .5s;
 }
 .img_small_console:hover{
     opacity: 1;
@@ -270,12 +271,14 @@ h2{
     margin-top: 20px;
 }
 .card_list_new_entry{
-    border-radius: 20px;
-    overflow: hidden;
     color: white;
 }
 .card_list_new_entry img{
     width: 100%;
+    border-radius: 20px;
+}
+.card_list_new_entry img:hover{
+    box-shadow: 0 0 8px 10px rgba(46, 100, 230, 0.3);
 }
 .card_list_new_entry p{
     margin-top: 10px;
@@ -424,6 +427,10 @@ footer ul li:hover{
 }
 #info_copyright{
     text-decoration: underline;
+}
+.list_footer ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 
