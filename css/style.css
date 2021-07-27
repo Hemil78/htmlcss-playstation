@@ -214,9 +214,6 @@ h2{
     display: flex;
     align-items: center;
 }
-/* .text_console{
-    padding-left: 70px;
-} */
 .img_small_console{
     opacity: 0.5;
     padding: 30px;
